@@ -1,18 +1,21 @@
 import { NextResponse } from 'next/server'
 export const dynamic = 'force-dynamic'
 import { generateText } from 'ai'
-import { google } from '@ai-sdk/google'
-import { anthropic } from '@ai-sdk/anthropic'
-import { openai } from '@ai-sdk/openai'
+import { createGoogleGenerativeAI } from '@ai-sdk/google'
+import { createAnthropic } from '@ai-sdk/anthropic'
+import { createOpenAI } from '@ai-sdk/openai'
 
 function getModel() {
   if (process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
+    const google = createGoogleGenerativeAI({ apiKey: process.env.GOOGLE_GENERATIVE_AI_API_KEY })
     return google('gemini-1.5-pro')
   }
   if (process.env.ANTHROPIC_API_KEY) {
+    const anthropic = createAnthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
     return anthropic('claude-3-5-sonnet-20240620')
   }
   if (process.env.OPENAI_API_KEY) {
+    const openai = createOpenAI({ apiKey: process.env.OPENAI_API_KEY })
     return openai('gpt-4o-mini')
   }
   return null

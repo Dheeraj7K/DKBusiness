@@ -88,7 +88,6 @@ Format each insight with an emoji and bold header (e.g., "💡 **Value Propositi
     system: 'You are an expert business strategist specializing in Business Model Canvas analysis. Provide clear, actionable, and specific insights.',
     prompt: prompt,
     temperature: 0.7,
-    maxTokens: 1000,
   })
 
   return text || 'Unable to generate insights at this time.'

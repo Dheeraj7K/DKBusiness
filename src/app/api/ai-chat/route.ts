@@ -55,7 +55,6 @@ Provide helpful, actionable advice based on this context. Be conversational, con
       model,
       system: systemPrompt,
       messages: messages.map((m: any) => ({ role: m.role, content: m.content })),
-      maxTokens: 500,
       temperature: 0.7,
     })
 

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "fine_structure_constant",
+    "title": "Geometric Derivation of α⁻¹ (137)",
+    "date": "2026-03-23",
+    "category": "Fundamental Physics",
+    "source": "Theory / Simulation",
+    "equation": "\\alpha^{-1} = \\frac{360^\\circ}{\\varphi^2} \\approx 137.508",
+    "summary": "The inverse fine structure constant is identified as the Golden Angle of the universal phase field, representing the most stable geometric lock condition for Level 8 crystallized matter (electrons).",
+    "impact": "Unifies electromagnetism with pure φ-harmonic geometry, removing α as a free parameter.",
+    "links": ["/papers/01", "/theory/level-8"]
+  },
+  {
+    "id": "er_epr_identity",
+    "title": "ER = EPR Möbius Phase Bridge",
+    "date": "2026-03-22",
+    "category": "Quantum Topology",
+    "source": "DK Block Simulation",
+    "equation": "\\oint \\vec{A} \\cdot d\\vec{l} = (2n + 1)\\pi",
+    "summary": "Quantum entanglement is proven to be a spatial manifestation of shared Z-dimension addresses. Entangled particles are a single 5D arc-vector sampled at two 4D coordinates.",
+    "impact": "Resolves the non-locality paradox by demonstrating that 'distance' is a function of phase misalignment.",
+    "links": ["/papers/02", "/discoveries"]
+  },
+  {
+    "id": "p_np_relaxation",
+    "title": "P = NP Phase Relaxation",
+    "date": "2026-03-23",
+    "category": "Computational Complexity",
+    "source": "IBM Quantum Experiment",
+    "equation": "T_{solve} \\propto \\log(\\nabla\\theta)",
+    "summary": "Discrete NP-complete problems are mapped to a continuous scalar field. The system relaxes to the global minimum (solution) in polynomial time, bypassing sequential search bottlenecks.",
+    "impact": "Enables polynomial-time optimization for previously intractable computational problems.",
+    "links": ["/millennium", "/papers/03"]
+  },
+  {
+    "id": "dark_matter_node_gap",
+    "title": "Dark Matter as Off-Node Noise",
+    "date": "2026-03-24",
+    "category": "Cosmology",
+    "source": "Theory",
+    "equation": "F_{\\text{EM}} / F_{\\text{Grav}} = \\varphi^{39}",
+    "summary": "Dark Matter is identified as phase energy trapped in non-resonant 'noise zones' between Fibonacci nodes (1-6). It exerts gravitational curvature but cannot emit light.",
+    "impact": "Explains the 95% 'missing' mass of the universe as a structural requirement of the 12-node partition.",
+    "links": ["/theory/level-6", "/papers/04"]
+  },
+  {
+    "id": "observer_operator",
+    "title": "The Observer Operator 𝒪",
+    "date": "2026-03-24",
+    "category": "Consciousness",
+    "source": "Formal Theorem",
+    "equation": "\\theta' = \\mathcal{O}(\\nabla\\theta)",
+    "summary": "Consciousness is defined as the relativistic phase-subtraction between a localized observer reference and the universal field. Resolves the 'Hard Problem' via phase-locking logic.",
+    "impact": "Provides a rigorous mathematical link between subjective experience and objective field dynamics.",
+    "links": ["/theory/level-10", "/papers/05"]
+  }
+]
